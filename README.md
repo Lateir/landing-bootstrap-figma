@@ -1,3 +1,3 @@
 # landing bootstrap figma
  
-Testcase for ALTO
+Testcase for ALTO-adaptation

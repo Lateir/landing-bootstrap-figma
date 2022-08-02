@@ -8,8 +8,8 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 </head>
 <body class="bg-light">
-    <div class="bg-white container-md">
-      <div class="container col-md-10 px-4 py-3">
+    <div class="bg-white ">
+      <div class="container col-md-5 px-4 py-3">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
                 <img src="img/no-media.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
@@ -26,8 +26,8 @@
     </div>
   </div>
 
-  <div class="bg-white mt-5 container px-4 py-5" id="hanging-icons">
-      <h2 class="display-5 fw-bold lh-1 mb-3">Columns with icons</h2>
+  <div class="bg-white mt-5 container px-4 pt-4 pb-0 py-5" id="hanging-icons">
+      <h2 class="display-5 fw-bold lh-1 mb-3 pb-4 border-bottom">Columns with icons</h2>
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="col d-flex align-items-start">
           <div>
@@ -35,7 +35,9 @@
             <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
             <a href="#" class="btn btn-primary">
               Click to action
-              <img src="img/arrow.png" width="18px" height="16px" style="padding: 2px">
+              <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="16" height="18">
+                <path d="M15.4,9.88,10.81,5.29a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L14,11.29a1,1,0,0,1,0,1.42L9.4,17.29a1,1,0,0,0,1.41,1.42l4.59-4.59A3,3,0,0,0,15.4,9.88Z"/>
+              </svg>
             </a>
           </div>
         </div>
@@ -45,7 +47,9 @@
             <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
             <a href="#" class="btn btn-primary">
               Click to action
-              <img src="img/arrow.png" width="18px" height="16px" style="padding: 2px">
+              <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="16" height="18">
+                <path d="M15.4,9.88,10.81,5.29a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L14,11.29a1,1,0,0,1,0,1.42L9.4,17.29a1,1,0,0,0,1.41,1.42l4.59-4.59A3,3,0,0,0,15.4,9.88Z"/>
+              </svg>
             </a>
           </div>
         </div>
@@ -55,7 +59,9 @@
             <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
             <a href="#" class="btn btn-primary">
               Click to action
-              <img src="img/arrow.png" width="18px" height="16px" style="padding: 2px">
+              <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="16" height="18">
+                <path d="M15.4,9.88,10.81,5.29a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L14,11.29a1,1,0,0,1,0,1.42L9.4,17.29a1,1,0,0,0,1.41,1.42l4.59-4.59A3,3,0,0,0,15.4,9.88Z"/>
+              </svg>
             </a>
           </div>
         </div>
@@ -63,9 +69,9 @@
     </div>
 
     <div class="container">
-      <div class="pricing-header col-md-9 p-3 pb-md-4 mt-2 mx-auto text-center">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Pricing</h1>
-        <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+      <div class="pricing-header col-md-9 p-3 pb-md-4 mt-5 mx-auto text-center">
+        <h1 class="display-5 fw-bold lh-1 mb-4">Pricing</h1>
+        <p class="fs-5 col-md-10 mx-auto text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
       </div>
       <div class="row row-cols-1 justify-content-md-center row-cols-md-3 mb-3 text-center">
           <div class="col col-lg-3">
@@ -123,64 +129,79 @@
       </div>
     </div>
       
-    <div class="container px-4 py-5 bg-white" id="icon-grid">
-        <h2 class="display-5 fw-bold lh-1 mb-3">Icon Grid</h2>
+    <div class="container px-4 py-4 bg-white mb-5" id="icon-grid">
+        <h2 class="display-5 fw-bold lh-1 mb-3 pb-4 border-bottom">Icon Grid</h2>
     
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-3 mb-3">
+          <div class="p-2 pb-0">
+            <div class="col d-flex align-items-start p-3 bg-light rounded-4 pt-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi text-muted flex-shrink-0 me-3 mt-1" viewBox="0 0 16 16">
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+              </svg>
+              <div>
+                <h4 class="fw-bold mb-2">Featured title</h4>
+                <p>Paragraph of text beneath the heading to explain the heading.</p>
+              </div>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+
+          <div class="p-2 pb-0">
+            <div class="col d-flex align-items-start p-3 bg-light rounded-4 pt-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi text-muted flex-shrink-0 me-3 mt-1" viewBox="0 0 16 16">
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+              </svg>
+              <div>
+                <h4 class="fw-bold mb-2">Featured title</h4>
+                <p>Paragraph of text beneath the heading to explain the heading.</p>
+              </div>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+
+          <div class="p-2 pb-0">
+            <div class="col d-flex align-items-start p-3 bg-light rounded-4 pt-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi text-muted flex-shrink-0 me-3 mt-1" viewBox="0 0 16 16">
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+              </svg>
+              <div>
+                <h4 class="fw-bold mb-2">Featured title</h4>
+                <p>Paragraph of text beneath the heading to explain the heading.</p>
+              </div>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+
+          <div class="p-2 pt-0">
+            <div class="col d-flex align-items-start p-3 bg-light rounded-4 pt-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi text-muted flex-shrink-0 me-3 mt-1" viewBox="0 0 16 16">
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+              </svg>
+              <div>
+                <h4 class="fw-bold mb-2">Featured title</h4>
+                <p>Paragraph of text beneath the heading to explain the heading.</p>
+              </div>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+
+          <div class="p-2 pt-0">
+            <div class="col d-flex align-items-start p-3 bg-light rounded-4 pt-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi text-muted flex-shrink-0 me-3 mt-1" viewBox="0 0 16 16">
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+              </svg>
+              <div>
+                <h4 class="fw-bold mb-2">Featured title</h4>
+                <p>Paragraph of text beneath the heading to explain the heading.</p>
+              </div>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+
+          <div class="p-2 pt-0">
+            <div class="col d-flex align-items-start p-3 bg-light rounded-4 pt-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi text-muted flex-shrink-0 me-3 mt-1" viewBox="0 0 16 16">
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+              </svg>
+              <div>
+                <h4 class="fw-bold mb-2">Featured title</h4>
+                <p>Paragraph of text beneath the heading to explain the heading.</p>
+              </div>
             </div>
           </div>
         </div>
